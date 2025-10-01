@@ -10,14 +10,14 @@ body {
   background: url('bg.jpg');
   background-size: cover;
   color: #e4e4e4;
-  min-height: 1008
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.logo{
-  height: 80px;
-  /* width: auto; */
+header img {
+  height: 45px;
+  width: auto;
 }
 
 
@@ -269,6 +269,7 @@ h1.page-title {
   right: 40%;
   max-width: 900px;
   margin: auto;
+  /* padding-left: 20px; */
 }
 
 .timeline::after {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BreachVault | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="BreachVault Logo">
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="hackers.html">Hackers</a>
+    </nav>
+  </header>
+  <div class="particles"></div>
+  <main>
+    <h1>BreachVault</h1>
+    <h2>a vault of cyber breaches and hacker info</h2>
+  </main>
+  <script>
+ 
+    const particlesContainer = document.querySelector('.particles');
+    for(let i = 0; i < 80; i++){
+      const p = document.createElement('div');
+      p.classList.add('particle');
+      p.style.left = Math.random() * 100 + 'vw';
+      p.style.top = Math.random() * 100 + 'vh';
+      p.style.animationDuration = 5 + Math.random() * 10 + 's';
+      p.style.width = 1 + Math.random() * 3 + 'px';
+      p.style.height = p.style.width;
+      particlesContainer.appendChild(p);
+    }
+  </script>
+</body>
+</html>

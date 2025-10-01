@@ -10,14 +10,14 @@ body {
   background: url('bg.jpg');
   background-size: cover;
   color: #e4e4e4;
-  min-height: 100vh;
+  min-height: 1008
   display: flex;
   flex-direction: column;
 }
 
-header img {
-  height: 45px;
-  width: auto;
+.logo{
+  height: 80px;
+  /* width: auto; */
 }
 
 
